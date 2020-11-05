@@ -1,0 +1,9 @@
+body{
+    margin: none;
+    padding: none;
+}
+
+.photo{
+    position: absolute;
+    size: 10%;
+}
