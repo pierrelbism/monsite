@@ -3,7 +3,7 @@ body{
     padding: none;
 }
 
-.photo{
-    position: absolute;
-    size: 10%;
+table
+{
+    border-collapse: collapse;
 }
