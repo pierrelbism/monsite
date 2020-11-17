@@ -5,16 +5,31 @@
         <title>Mon Site</title>
     </head>
     <body>
-        <b>Nom : </b><br>
-        <input type="text" name="nom" value="LE BEUZ" style="width: 200px;"><br>
-        <b>Prénom : </b></br>
-        <input type="text" name="prénom" value="Pierre" style="width: 200px;"><br>
-        <b>Date de naissance : </b><br>
-        <input type="text" name="date" value="30/10/2004" style="width: 200px;"><br>
-        <b>Adresse mail : </b><br>
-        <input type="text" name="mail" value="pierre.lebeuz@ism-antony.org" style="width: 200px;"><br><br>
-        <img src="img/photo.png" title="Ma photo" style="height: 200px; width: auto;"></img><br><br>
-        <b>Ma scolarité au collège:<b><br>
+        <h1 class="titre">Fiche de Renseignement</h1>
+
+        <div class="identité">
+            <b>Nom : </b>
+            <input type="text" name="nom" value="LE BEUZ">
+        </div><br>
+
+        <div class="identité">
+            <b>Prénom : </b>
+            <input type="text" name="prénom" value="Pierre">
+        </div><br>
+
+        <div class="identité">
+            <b>Date de naissance : </b>
+            <input type="text" name="date" value="30/10/2004">
+        </div><br>
+        
+        <div class="identité">
+            <b>Adresse mail : </b>
+        <input type="text" name="mail" value="pierre.lebeuz@ism-antony.org">
+        </div><br>
+        
+        
+        <img class = "photo" src="img/photo.png" title="Ma photo"></img><br><br>
+        <b class="college">Ma scolarité au collège:</b><br>
         <img src="img/college.jfif" title="Image de mon collège"></img>
         <li>6ème en 2011</li>
         <li>5ème en 2012</li>
