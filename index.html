@@ -1,39 +1,73 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" />
         <link rel="stylesheet" href="style.css">
-        <script>
-            function essai(t){
-                alert(t);
-            }
-            function changecouleur(i, t){
-                document.getElementById(i).style.color=t;
-            }
-        </script>
+        <title>Mon Site</title>
     </head>
     <body>
-        <h1 id="paragraphe">devient vert normalement</h1>
-        <button onclick="essai('incroyable!')">pop-up</button><br><br>
+        <h1 class="titre">FICHE DE RENSEIGNEMENTS</h1>
 
-        <div>
-            <input id="couleur" value="">
-            <button onclick="changecouleur('paragraphe', document.getElementById('couleur').value)">couleur</button><br><br>
-        </div>
-  
+        <div class="identité">
+            <b>Nom : </b>
+            <input type="text" name="nom" value="LE BEUZ">
+        </div><br>
 
-        <div class="calculatrice" id="calculatrice">
-            <!-- <button class="button_9" id="button_9" href="#">9</button>
-            <button class="button_8" id="button_8" href="#">8</button>
-            <button class="button_7" id="button_7" href="#">7</button>
-            <button class="button_6" id="button_6" href="#">6</button>
-            <button class="button_5" id="button_5" href="#">5</button>
-            <button class="button_4" id="button_4" href="#">4</button>
-            <button class="button_3" id="button_3" href="#">3</button>
-            <button class="button_2" id="button_2" href="#">2</button>
-            <button class="button_1" id="button_1" href="#">1</button>
-            <button class="button_0" id="button_0" href="#">0</button> -->
+        <div class="identité">
+            <b>Prénom : </b>
+            <input type="text" name="prénom" value="Pierre">
+        </div><br>
+
+        <div class="identité">
+            <b>Date de naissance : </b>
+            <input type="text" name="date" value="30/10/2004">
+        </div><br>
+
+        <div class="identité">
+            <b>Adresse mail : </b>
+        <input type="text" name="mail" value="pierre.lebeuz@ism-antony.org" style="width: 190px;">
+        </div><br>
+
+        <img class = "photo" src="img/photo.png" title="Ma photo"></img><br><br>
+
+        <b class="titre_college">Ma scolarité au collège:</b><br><br>
+        <div class="college">
+            <img  class="photo_college" src="img/college.jfif" title="Image de mon collège"></img>
+            <h3><li>6ème en 2011</li></h3>
+            <h3><li>5ème en 2012</li></h3>
+            <h3><li>4ème en 2013</li></h3>
+            <h3><li>3ème en 2014</li></h3>
+            <h3><li>2ème en 2015</li></h3>
+            <a class="lien_college" href="https://www.saintemarieantony.fr/college" target="blank">https://www.saintemarieantony.fr/college</a><br><br>
+        </div><br>
+
+        <b class="titre_lycée">Ma scolarité au lycée:</b><br><br>
+            <div class="lycée">
+                <img  class="photo_lycée" src="img/lycée.jpg" title="Image de mon lycée"></img>
+                <table>
+                    <tr>
+                        <td>Seconde</td>
+                        <td>En 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Première</td>
+                        <td>En 2016</td>
+                    </tr>
+                    <tr>
+                        <td>Terminale</td>
+                        <td>En 2017</td>
+                    </tr>
+                </table><br>
+                <a class="lien_lycée" href="https://www.saintemarieantony.fr/lycee" target="blank">https://www.saintemarieantony.fr/lycee</a><br><br>
+            </div><br>
+            
+        <div class="fin">
+            <b>Mes compétences informatiques:</b><br>
+            <li>Python</li>
+            <li>HTML-CSS</li><br>
+            <b>Les études ou métier que j'envisage:</b><br>
+            <li>Etude informatique</li>
+            <li>Etude d'architecture</li>
         </div>
     </body>
-</html>
-
+</html>	
